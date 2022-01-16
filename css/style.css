@@ -1,0 +1,179 @@
+/* Montserrat-Regular,AdobeInvisFont,MyriadPro-Regular */
+body{
+	scroll-behavior: smooth !important;
+	overflow-x: hidden !important;
+    font-family: 'Oswald';
+}
+.nav-logo {
+  height: 50px;
+}
+
+.nav-text {
+  opacity: 1;
+  color: #ffffff !important;
+  font-family: Oswald-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 25px;
+}
+
+.nav-search button {
+  color: #ffffff !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+.part1-content {
+  position: absolute;
+  top: 386px;
+  left:85px;
+}
+.part1-content h1 {
+  color: #ffffff !important;
+  font-family: Oswald-Regular, AdobeInvisFont, MyriadPro-Regular;
+  /* font-size: 5em; */
+}
+.part1-content p{
+    width: 550px;
+    text-align: left;
+    opacity: 1 !important;
+    color: #ffffff !important;
+}
+.part1-content button{
+    background-color: #E8631C;
+    color: white;
+    border: none;
+    padding: 8px 23px;
+}
+
+.orangeCard{
+    background-image: url('../images/Shape1.png');
+    background-repeat: no-repeat;
+    object-fit:contain;
+    background-position: left;
+    background-color: #E8631C;
+}
+.mycard{
+    width:100%;
+    /* opacity: 1; */
+    background-color:#303030;
+    height: 150px;
+}
+
+/* pricing  */
+
+.Pricing{
+    background-image: url("../images/shleft.png");
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-color: #303030;
+}
+
+.my-card {
+    background-color: #E8631C;
+}
+
+.money {
+    background-color: #303030;
+    border:none;
+    border-radius: 4px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 30px;
+}
+
+.dance-img{
+    background-color: #303030;
+    height: 80% !important;
+}
+
+.dance-text{
+    background-color: #E8631C;
+    padding:auto 60px;
+}
+
+
+.dance-text p{
+    text-transform: unset;
+}
+
+.dance-text button{
+    background-color: #303030;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 30px;
+}
+
+.member .row{
+    background-color: #303030;
+    color: white;
+
+}
+
+.subsribe{
+    background-image: url("../images/shape2.png") ,url("../images/shape2.png");
+    background-position: 50px 150px;
+    background-color: #E8631C;
+
+}
+.subsribe div h1{
+    font-size: 58px;
+}
+
+.subscribe-button input{
+    width: 100%;
+    border:none;
+    border-radius: 4px 0 0 4px;
+    padding:8px 15px;
+    font-size: 20px;
+}
+.subscribe-button button{
+    border:none;
+    font-size: 20px;
+    padding:4px 15px;
+    border-radius: 0 4px 4px 0;
+    background-color: #303030;
+    color:white;
+}
+
+.footer{
+    background-color: #303030;
+    color:#ffffff;
+}
+
+.ft-logo{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    /* border-radius: 10px; */
+    font-size: 26px;
+}
+
+.footer-p2 div a{
+    text-decoration: none;
+    color:#ffffff;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+
+.my-hover:hover{
+    border-bottom: 2px solid #E8631C;
+}
+
+@media screen and (min-width:1583px) {
+    .mycard{
+        width:372px;
+    }
+}
+
+
+@media screen and (max-width:476px){
+    .mycard{
+        width:auto !important;
+    }
+}
+
+@media screen and (max-width:767px){
+    .mycard{
+        width:372px;
+    }
+}
